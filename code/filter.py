@@ -1,4 +1,5 @@
 import pandas as pd
+import random
 
 df = pd.read_csv(
     'C:/Users/minhb/OneDrive/Documents/GitHub/CS418_STS_VN/stsvv/test.csv',
@@ -20,7 +21,6 @@ for each in removal:
 # Assuming you've performed modifications and stored the result in df_modified
 # Export the modified DataFrame to a CSV file
 df_modified.to_csv('modified_data.csv', index=False, sep='\t')
-
 
 
 
